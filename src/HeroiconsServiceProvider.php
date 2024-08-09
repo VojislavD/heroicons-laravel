@@ -1,16 +1,12 @@
 <?php
 
-namespace TallComponents;
+namespace Heroicons;
 
-use Illuminate\Support\Facades\Artisan;
+use Heroicons\View\Components\Icon;
 use Illuminate\Support\Facades\Blade;
-use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\View\Compilers\BladeCompiler;
-use Livewire\Livewire;
-use TallComponents\Livewire\Notification;
 
-class TallComponentsServiceProvider extends ServiceProvider
+class HeroiconsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
@@ -19,6 +15,8 @@ class TallComponentsServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        //
+        Blade::component('icon', Icon::class);
+
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'heroicons');
     }
 }

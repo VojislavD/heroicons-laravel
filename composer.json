@@ -1,6 +1,6 @@
 {
     "name": "vojislavd/heroicons",
-    "description": "Simple handle herocions from Laravel",
+    "description": "Simple handle heroicon from Laravel",
     "license": "MIT",
     "require": {
         "php": "^8.3"
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Herocions\\HeroiconsServiceProvider"
+                "Heroicons\\HeroiconsServiceProvider"
             ]
         }
     },
