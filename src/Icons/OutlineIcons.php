@@ -168,17 +168,18 @@ class OutlineIcons
         'document-plus' => '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m3.75 9v6m3-3H9m1.5-12H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />',
         'document-text' => '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />',
         'document' => '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />',
+        'ellipsis-horizontal-circle' => '<path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />',
+        'ellipsis-horizontal' => '<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />',
+        'ellipsis-vertical' => '<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z" />',
+        'envelope-open' => '<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />',
+        'envelope' => '<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />',
+        'equals' => '<path stroke-linecap="round" stroke-linejoin="round" d="M4.499 8.248h15m-15 7.501h15" />',
+        'exclamation-circle' => '<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />',
         
         
         
         
-        'ellipsis-horizontal-circle' => '',
-        'ellipsis-horizontal' => '',
-        'ellipsis-vertical' => '',
-        'envelope-open' => '',
-        'envelope' => '',
-        'equals' => '',
-        'exclamation-circle' => '',
+        
         'exclamation-triangle' => '',
         'eye-dropper' => '',
         'eye-slash' => '',
@@ -186,6 +187,11 @@ class OutlineIcons
         'face-frown' => '',
         'face-smile' => '',
         'film' => '',
+        
+        
+        
+        
+        
         'finger-print' => '',
         'fire' => '',
         'flag' => '',
@@ -193,6 +199,10 @@ class OutlineIcons
         'folder-minus' => '',
         'folder-open' => '',
         'folder-plus' => '',
+        
+        
+        
+        
         'folder' => '',
         'forward' => '',
         'funnel' => '',
@@ -200,6 +210,12 @@ class OutlineIcons
         'gift-top' => '',
         'gift' => '',
         'globe-alt' => '',
+        
+        
+        
+        
+        
+        
         'globe-americas' => '',
         'globe-asia-australia' => '',
         'globe-europe-africa' => '',
@@ -207,6 +223,11 @@ class OutlineIcons
         'h2' => '',
         'h3' => '',
         'hand-raised' => '',
+
+
+
+
+
         'hand-thumb-down' => '',
         'hand-thumb-up' => '',
         'hashtag' => '',
@@ -214,6 +235,11 @@ class OutlineIcons
         'home-modern' => '',
         'home' => '',
         'identification' => '',
+        
+        
+        
+        
+        
         'inbox-arrow-down' => '',
         'inbox-stack' => '',
         'inbox' => '',
@@ -221,6 +247,11 @@ class OutlineIcons
         'italic' => '',
         'key' => '',
         'language' => '',
+
+
+
+
+
         'lifebuoy' => '',
         'light-bulb' => '',
         'link-slash' => '',
@@ -228,6 +259,12 @@ class OutlineIcons
         'list-bullet' => '',
         'lock-closed' => '',
         'lock-open' => '',
+        
+        
+        
+        
+        
+        
         'magnifying-glass-circle' => '',
         'magnifying-glass-minus' => '',
         'magnifying-glass-plus' => '',
@@ -235,6 +272,11 @@ class OutlineIcons
         'map-pin' => '',
         'map' => '',
         'megaphone' => '',
+        
+        
+        
+        
+        
         'microphone' => '',
         'minus-circle' => '',
         'minus' => '',
@@ -242,6 +284,11 @@ class OutlineIcons
         'musical-note' => '',
         'newspaper' => '',
         'no-symbol' => '',
+        
+        
+        
+        
+        
         'numbered-list' => '',
         'paint-brush' => '',
         'paper-airplane' => '',
@@ -249,6 +296,10 @@ class OutlineIcons
         'pause-circle' => '',
         'pause' => '',
         'pencil-square' => '',
+        
+        
+        
+        
         'pencil' => '',
         'percent-badge' => '',
         'phone-arrow-down-left' => '',
@@ -256,6 +307,10 @@ class OutlineIcons
         'phone-x-mark' => '',
         'phone' => '',
         'photo' => '',
+        
+        
+        
+        
         'play-circle' => '',
         'play-pause' => '',
         'play' => '',
@@ -263,6 +318,10 @@ class OutlineIcons
         'plus' => '',
         'power' => '',
         'presentation-chart-bar' => '',
+        
+        
+        
+        
         'presentation-chart-line' => '',
         'printer' => '',
         'puzzle-piece' => '',
@@ -270,6 +329,9 @@ class OutlineIcons
         'question-mark-circle' => '',
         'queue-list' => '',
         'radio' => '',
+        
+        
+        
         'receipt-percent' => '',
         'receipt-refund' => '',
         'rectangle-group' => '',
