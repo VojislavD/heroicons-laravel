@@ -26,13 +26,20 @@ class OutlineIcons
         'arrow-long-left' => '<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />',
         'arrow-long-right' => '<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />',
         'arrow-long-up' => '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />',
-        'arrow-path-rounded-square' => '',
-        'arrow-path' => '',
-        'arrow-right-circle' => '',
-        'arrow-right-end-on-rectangle' => '',
-        'arrow-right-start-on-rectangle' => '',
-        'arrow-right' => '',
-        'arrow-top-right-on-square' => '',
+
+
+
+        'arrow-path-rounded-square' => '<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />',
+        'arrow-path' => '<path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />',
+        'arrow-right-circle' => '<path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />',
+        'arrow-right-end-on-rectangle' => '<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />',
+        'arrow-right-start-on-rectangle' => '<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />',
+        'arrow-right' => '<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />',
+        'arrow-top-right-on-square' => '<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />',
+
+
+
+
         'arrow-trending-down' => '',
         'arrow-trending-up' => '',
         'arrow-turn-down-left' => '',
@@ -40,6 +47,11 @@ class OutlineIcons
         'arrow-turn-left-down' => '',
         'arrow-turn-left-up' => '',
         'arrow-turn-right-down' => '',
+        
+        
+        
+        
+        
         'arrow-turn-right-up' => '',
         'arrow-turn-up-left' => '',
         'arrow-turn-up-right' => '',
@@ -47,6 +59,11 @@ class OutlineIcons
         'arrow-up-left' => '',
         'arrow-up-on-square-stack' => '',
         'arrow-up-on-square' => '',
+        
+        
+        
+        
+        
         'arrow-up-right' => '',
         'arrow-up-tray' => '',
         'arrow-up' => '',
@@ -54,6 +71,10 @@ class OutlineIcons
         'arrow-uturn-left' => '',
         'arrow-uturn-right' => '',
         'arrow-uturn-up' => '',
+        
+        
+        
+        
         'arrows-pointing-in' => '',
         'arrows-pointing-out' => '',
         'arrows-right-left' => '',
@@ -61,6 +82,10 @@ class OutlineIcons
         'at-symbol' => '',
         'backspace' => '',
         'backward' => '',
+        
+        
+        
+        
         'banknotes' => '',
         'bars-2' => '',
         'bars-3-bottom-left' => '',
