@@ -12,6 +12,7 @@ class MiniIcons
         'archive-box-x-mark' => '',
         'archive-box' => '',
         'arrow-down-circle' => '',
+        'arrow-down-left' => '',
         'arrow-down-on-square-stack' => '',
         'arrow-down-on-square' => '',
         'arrow-down-right' => '',
