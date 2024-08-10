@@ -115,13 +115,17 @@ class OutlineIcons
 
 
 
-        'chevron-double-down' => '',
-        'chevron-double-left' => '',
-        'chevron-double-right' => '',
-        'chevron-double-up' => '',
-        'chevron-down' => '',
-        'chevron-left' => '',
-        'chevron-right' => '',
+        'chevron-double-down' => '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />',
+        'chevron-double-left' => '<path stroke-linecap="round" stroke-linejoin="round" d="m18.75 4.5-7.5 7.5 7.5 7.5m-6-15L5.25 12l7.5 7.5" />',
+        'chevron-double-right' => '<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />',
+        'chevron-double-up' => '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 18.75 7.5-7.5 7.5 7.5" /><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 7.5-7.5 7.5 7.5" />',
+        'chevron-down' => '<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />',
+        'chevron-left' => '<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />',
+        'chevron-right' => '<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />',
+        
+        
+        
+        
         'chevron-up-down' => '',
         'chevron-up' => '',
         'circle-stack' => '',
@@ -129,6 +133,10 @@ class OutlineIcons
         'clipboard-document-list' => '',
         'clipboard-document' => '',
         'clipboard' => '',
+        
+        
+        
+        
         'clock' => '',
         'cloud-arrow-down' => '',
         'cloud-arrow-up' => '',
@@ -136,6 +144,10 @@ class OutlineIcons
         'code-bracket-square' => '',
         'code-bracket' => '',
         'cog-6-tooth' => '',
+        
+        
+        
+        
         'cog-8-tooth' => '',
         'cog' => '',
         'command-line' => '',
@@ -143,6 +155,9 @@ class OutlineIcons
         'cpu-chip' => '',
         'credit-card' => '',
         'cube-transparent' => '',
+        
+        
+        
         'cube' => '',
         'currency-bangladeshi' => '',
         'currency-dollar' => '',
@@ -150,6 +165,11 @@ class OutlineIcons
         'currency-pound' => '',
         'currency-rupee' => '',
         'currency-yen' => '',
+        
+        
+        
+        
+        
         'cursor-arrow-rays' => '',
         'cursor-arrow-ripple' => '',
         'device-phone-mobile' => '',
@@ -157,6 +177,11 @@ class OutlineIcons
         'divide' => '',
         'document-arrow-down' => '',
         'document-arrow-up' => '',
+        
+        
+        
+        
+        
         'document-chart-bar' => '',
         'document-check' => '',
         'document-currency-bangladeshi' => '',
@@ -164,6 +189,10 @@ class OutlineIcons
         'document-currency-euro' => '',
         'document-currency-pound' => '',
         'document-currency-rupee' => '',
+        
+        
+        
+        
         'document-currency-yen' => '',
         'document-duplicate' => '',
         'document-magnifying-glass' => '',
@@ -171,6 +200,10 @@ class OutlineIcons
         'document-plus' => '',
         'document-text' => '',
         'document' => '',
+        
+        
+        
+        
         'ellipsis-horizontal-circle' => '',
         'ellipsis-horizontal' => '',
         'ellipsis-vertical' => '',
