@@ -61,17 +61,17 @@ class OutlineIcons
         'at-symbol' => '<path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25" />',
         'backspace' => '<path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75 14.25 12m0 0 2.25 2.25M14.25 12l2.25-2.25M14.25 12 12 14.25m-2.58 4.92-6.374-6.375a1.125 1.125 0 0 1 0-1.59L9.42 4.83c.21-.211.497-.33.795-.33H19.5a2.25 2.25 0 0 1 2.25 2.25v10.5a2.25 2.25 0 0 1-2.25 2.25h-9.284c-.298 0-.585-.119-.795-.33Z" />',
         'backward' => '<path stroke-linecap="round" stroke-linejoin="round" d="M21 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061A1.125 1.125 0 0 1 21 8.689v8.122ZM11.25 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061a1.125 1.125 0 0 1 1.683.977v8.122Z" />',
+        'banknotes' => '<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />',
+        'bars-2' => '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />',
+        'bars-3-bottom-left' => '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />',
+        'bars-3-bottom-right' => '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />',
+        'bars-3-center-left' => '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />',
+        'bars-3' => '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />',
+        'bars-4' => '<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />',
         
         
         
         
-        'banknotes' => '',
-        'bars-2' => '',
-        'bars-3-bottom-left' => '',
-        'bars-3-bottom-right' => '',
-        'bars-3-center-left' => '',
-        'bars-3' => '',
-        'bars-4' => '',
         'bars-arrow-down' => '',
         'bars-arrow-up' => '',
         'battery-0' => '',
@@ -79,6 +79,11 @@ class OutlineIcons
         'battery-50' => '',
         'beaker' => '',
         'bell-alert' => '',
+        
+        
+        
+        
+        
         'bell-slash' => '',
         'bell-snooze' => '',
         'bell' => '',
@@ -86,6 +91,11 @@ class OutlineIcons
         'bolt-slash' => '',
         'bolt' => '',
         'book-open' => '',
+        
+        
+        
+        
+        
         'bookmark-slash' => '',
         'bookmark-square' => '',
         'bookmark' => '',
@@ -93,6 +103,11 @@ class OutlineIcons
         'bug-ant' => '',
         'building-library' => '',
         'building-office-2' => '',
+        
+        
+        
+        
+        
         'building-office' => '',
         'building-storefront' => '',
         'cake' => '',
@@ -100,6 +115,11 @@ class OutlineIcons
         'calendar-date-range' => '',
         'calendar-days' => '',
         'calendar' => '',
+        
+        
+        
+        
+        
         'camera' => '',
         'chart-bar-square' => '',
         'chart-bar' => '',
@@ -107,6 +127,8 @@ class OutlineIcons
         'chat-bubble-bottom-center-text' => '',
         'chat-bubble-bottom-center' => '',
         'chat-bubble-left-ellipsis' => '',
+        
+        
         'chat-bubble-left-right' => '',
         'chat-bubble-left' => '',
         'chat-bubble-oval-left-ellipsis' => '',
@@ -114,6 +136,11 @@ class OutlineIcons
         'check-badge' => '',
         'check-circle' => '',
         'check' => '',
+
+
+
+
+
         'chevron-double-down' => '',
         'chevron-double-left' => '',
         'chevron-double-right' => '',
