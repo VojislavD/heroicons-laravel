@@ -19,7 +19,11 @@ class Icon extends Component
                 'fill' => 'none',
                 'stroke-width' => '1.5',
                 'stroke' => 'currentColor',
-                'class' => 'size-64',
+                'class' => 'size-6',
+            ],
+            'solid' => [
+                'fill' => 'currentColor',
+                'class' => 'size-6',
             ],
         };
     }
