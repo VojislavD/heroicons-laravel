@@ -25,6 +25,10 @@ class Icon extends Component
                 'fill' => 'currentColor',
                 'class' => 'size-6',
             ],
+            'mini' => [
+                'fill' => 'currentColor',
+                'class' => 'size-5',
+            ],
         };
     }
 
