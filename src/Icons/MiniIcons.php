@@ -12,13 +12,16 @@ class MiniIcons
         'archive-box-x-mark' => '<path d="M2 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2Z" /><path fill-rule="evenodd" d="M2 7.5h16l-.811 7.71a2 2 0 0 1-1.99 1.79H4.802a2 2 0 0 1-1.99-1.79L2 7.5Zm5.22 1.72a.75.75 0 0 1 1.06 0L10 10.94l1.72-1.72a.75.75 0 1 1 1.06 1.06L11.06 12l1.72 1.72a.75.75 0 1 1-1.06 1.06L10 13.06l-1.72 1.72a.75.75 0 0 1-1.06-1.06L8.94 12l-1.72-1.72a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />',
         'archive-box' => '<path d="M2 3a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2Z" /><path fill-rule="evenodd" d="M2 7.5h16l-.811 7.71a2 2 0 0 1-1.99 1.79H4.802a2 2 0 0 1-1.99-1.79L2 7.5ZM7 11a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H8a1 1 0 0 1-1-1Z" clip-rule="evenodd" />',
         'arrow-down-circle' => '<path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm.75-11.25a.75.75 0 0 0-1.5 0v4.59L7.3 9.24a.75.75 0 0 0-1.1 1.02l3.25 3.5a.75.75 0 0 0 1.1 0l3.25-3.5a.75.75 0 1 0-1.1-1.02l-1.95 2.1V6.75Z" clip-rule="evenodd" />',
-        'arrow-down-left' => '',
-        'arrow-down-on-square-stack' => '',
-        'arrow-down-on-square' => '',
-        'arrow-down-right' => '',
-        'arrow-down-tray' => '',
-        'arrow-down' => '',
-        'arrow-left-circle' => '',
+        'arrow-down-left' => '<path fill-rule="evenodd" d="M14.78 5.22a.75.75 0 0 0-1.06 0L6.5 12.44V6.75a.75.75 0 0 0-1.5 0v7.5c0 .414.336.75.75.75h7.5a.75.75 0 0 0 0-1.5H7.56l7.22-7.22a.75.75 0 0 0 0-1.06Z" clip-rule="evenodd" />',
+        'arrow-down-on-square-stack' => '<path fill-rule="evenodd" d="M8 1a.75.75 0 0 1 .75.75V6h-1.5V1.75A.75.75 0 0 1 8 1Zm-.75 5v3.296l-.943-1.048a.75.75 0 1 0-1.114 1.004l2.25 2.5a.75.75 0 0 0 1.114 0l2.25-2.5a.75.75 0 0 0-1.114-1.004L8.75 9.296V6h2A2.25 2.25 0 0 1 13 8.25v4.5A2.25 2.25 0 0 1 10.75 15h-5.5A2.25 2.25 0 0 1 3 12.75v-4.5A2.25 2.25 0 0 1 5.25 6h2ZM7 16.75v-.25h3.75a3.75 3.75 0 0 0 3.75-3.75V10h.25A2.25 2.25 0 0 1 17 12.25v4.5A2.25 2.25 0 0 1 14.75 19h-5.5A2.25 2.25 0 0 1 7 16.75Z" clip-rule="evenodd" />',
+        'arrow-down-on-square' => '<path d="M13.75 7h-3v5.296l1.943-2.048a.75.75 0 0 1 1.114 1.004l-3.25 3.5a.75.75 0 0 1-1.114 0l-3.25-3.5a.75.75 0 1 1 1.114-1.004l1.943 2.048V7h1.5V1.75a.75.75 0 0 0-1.5 0V7h-3A2.25 2.25 0 0 0 4 9.25v7.5A2.25 2.25 0 0 0 6.25 19h7.5A2.25 2.25 0 0 0 16 16.75v-7.5A2.25 2.25 0 0 0 13.75 7Z" />',
+        'arrow-down-right' => '<path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06l7.22 7.22H6.75a.75.75 0 0 0 0 1.5h7.5a.747.747 0 0 0 .75-.75v-7.5a.75.75 0 0 0-1.5 0v5.69L6.28 5.22Z" />',
+        'arrow-down-tray' => '<path d="M10.75 2.75a.75.75 0 0 0-1.5 0v8.614L6.295 8.235a.75.75 0 1 0-1.09 1.03l4.25 4.5a.75.75 0 0 0 1.09 0l4.25-4.5a.75.75 0 0 0-1.09-1.03l-2.955 3.129V2.75Z" /><path d="M3.5 12.75a.75.75 0 0 0-1.5 0v2.5A2.75 2.75 0 0 0 4.75 18h10.5A2.75 2.75 0 0 0 18 15.25v-2.5a.75.75 0 0 0-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5Z" />',
+        'arrow-down' => '<path fill-rule="evenodd" d="M10 3a.75.75 0 0 1 .75.75v10.638l3.96-4.158a.75.75 0 1 1 1.08 1.04l-5.25 5.5a.75.75 0 0 1-1.08 0l-5.25-5.5a.75.75 0 1 1 1.08-1.04l3.96 4.158V3.75A.75.75 0 0 1 10 3Z" clip-rule="evenodd" />',
+        'arrow-left-circle' => '<g clip-path="url(#a)"><path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.25-7.25a.75.75 0 0 0 0-1.5H8.66l2.1-1.95a.75.75 0 1 0-1.02-1.1l-3.5 3.25a.75.75 0 0 0 0 1.1l3.5 3.25a.75.75 0 0 0 1.02-1.1l-2.1-1.95h4.59Z" clip-rule="evenodd" /></g><defs><clipPath id="a"><path d="M0 0h20v20H0z" /></clipPath></defs>',
+        
+        
+        
         'arrow-left-end-on-rectangle' => '',
         'arrow-left-start-on-rectangle' => '',
         'arrow-left' => '',
@@ -26,6 +29,10 @@ class MiniIcons
         'arrow-long-left' => '',
         'arrow-long-right' => '',
         'arrow-long-up' => '',
+        
+        
+        
+        
         'arrow-path-rounded-square' => '',
         'arrow-path' => '',
         'arrow-right-circle' => '',
@@ -33,6 +40,10 @@ class MiniIcons
         'arrow-right-start-on-rectangle' => '',
         'arrow-right' => '',
         'arrow-top-right-on-square' => '',
+        
+        
+        
+        
         'arrow-trending-down' => '',
         'arrow-trending-up' => '',
         'arrow-turn-down-left' => '',
@@ -40,6 +51,10 @@ class MiniIcons
         'arrow-turn-left-down' => '',
         'arrow-turn-left-up' => '',
         'arrow-turn-right-down' => '',
+        
+        
+        
+        
         'arrow-turn-right-up' => '',
         'arrow-turn-up-left' => '',
         'arrow-turn-up-right' => '',
@@ -47,6 +62,10 @@ class MiniIcons
         'arrow-up-left' => '',
         'arrow-up-on-square-stack' => '',
         'arrow-up-on-square' => '',
+        
+        
+        
+        
         'arrow-up-right' => '',
         'arrow-up-tray' => '',
         'arrow-up' => '',
@@ -54,6 +73,10 @@ class MiniIcons
         'arrow-uturn-left' => '',
         'arrow-uturn-right' => '',
         'arrow-uturn-up' => '',
+        
+        
+        
+        
         'arrows-pointing-in' => '',
         'arrows-pointing-out' => '',
         'arrows-right-left' => '',
@@ -61,6 +84,10 @@ class MiniIcons
         'at-symbol' => '',
         'backspace' => '',
         'backward' => '',
+        
+        
+        
+        
         'banknotes' => '',
         'bars-2' => '',
         'bars-3-bottom-left' => '',
@@ -68,6 +95,11 @@ class MiniIcons
         'bars-3-center-left' => '',
         'bars-3' => '',
         'bars-4' => '',
+        
+        
+        
+        
+        
         'bars-arrow-down' => '',
         'bars-arrow-up' => '',
         'battery-0' => '',
@@ -75,6 +107,10 @@ class MiniIcons
         'battery-50' => '',
         'beaker' => '',
         'bell-alert' => '',
+        
+        
+        
+        
         'bell-slash' => '',
         'bell-snooze' => '',
         'bell' => '',
@@ -82,6 +118,10 @@ class MiniIcons
         'bolt-slash' => '',
         'bolt' => '',
         'book-open' => '',
+        
+        
+        
+        
         'bookmark-slash' => '',
         'bookmark-square' => '',
         'bookmark' => '',
@@ -89,6 +129,10 @@ class MiniIcons
         'bug-ant' => '',
         'building-library' => '',
         'building-office-2' => '',
+        
+        
+        
+        
         'building-office' => '',
         'building-storefront' => '',
         'cake' => '',
@@ -96,6 +140,11 @@ class MiniIcons
         'calendar-date-range' => '',
         'calendar-days' => '',
         'calendar' => '',
+        
+        
+        
+        
+        
         'camera' => '',
         'chart-bar-square' => '',
         'chart-bar' => '',
@@ -103,6 +152,10 @@ class MiniIcons
         'chat-bubble-bottom-center-text' => '',
         'chat-bubble-bottom-center' => '',
         'chat-bubble-left-ellipsis' => '',
+        
+        
+        
+        
         'chat-bubble-left-right' => '',
         'chat-bubble-left' => '',
         'chat-bubble-oval-left-ellipsis' => '',
@@ -110,6 +163,11 @@ class MiniIcons
         'check-badge' => '',
         'check-circle' => '',
         'check' => '',
+        
+        
+        
+        
+        
         'chevron-double-down' => '',
         'chevron-double-left' => '',
         'chevron-double-right' => '',
@@ -117,6 +175,12 @@ class MiniIcons
         'chevron-down' => '',
         'chevron-left' => '',
         'chevron-right' => '',
+        
+        
+        
+        
+        
+        
         'chevron-up-down' => '',
         'chevron-up' => '',
         'circle-stack' => '',
