@@ -16,27 +16,41 @@ class MicroIcons
         
         
         
-        'arrow-down-left' => '',
-        'arrow-down-on-square-stack' => '',
-        'arrow-down-on-square' => '',
-        'arrow-down-right' => '',
-        'arrow-down-tray' => '',
-        'arrow-down' => '',
-        'arrow-left-circle' => '',
-        'arrow-left-end-on-rectangle' => '',
-        'arrow-left-start-on-rectangle' => '',
-        'arrow-left' => '',
-        'arrow-long-down' => '',
-        'arrow-long-left' => '',
-        'arrow-long-right' => '',
-        'arrow-long-up' => '',
-        'arrow-path-rounded-square' => '',
-        'arrow-path' => '',
-        'arrow-right-circle' => '',
-        'arrow-right-end-on-rectangle' => '',
-        'arrow-right-start-on-rectangle' => '',
-        'arrow-right' => '',
-        'arrow-top-right-on-square' => '',
+        'arrow-down-left' => '<path fill-rule="evenodd" d="M11.78 4.22a.75.75 0 0 1 0 1.06L6.56 10.5h3.69a.75.75 0 0 1 0 1.5h-5.5a.75.75 0 0 1-.75-.75v-5.5a.75.75 0 0 1 1.5 0v3.69l5.22-5.22a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />',
+        'arrow-down-on-square-stack' => '<path d="M7 1a.75.75 0 0 1 .75.75V6h-1.5V1.75A.75.75 0 0 1 7 1ZM6.25 6v2.94L5.03 7.72a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06L7.75 8.94V6H10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2.25Z" /><path d="M4.268 14A2 2 0 0 0 6 15h6a2 2 0 0 0 2-2v-3a2 2 0 0 0-1-1.732V11a3 3 0 0 1-3 3H4.268Z" />',
+        'arrow-down-on-square' => '<path d="M8 1a.75.75 0 0 1 .75.75V5h-1.5V1.75A.75.75 0 0 1 8 1ZM7.25 5v4.44L6.03 8.22a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06L8.75 9.44V5H11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2.25Z" />',
+        'arrow-down-right' => '<path fill-rule="evenodd" d="M4.22 4.22a.75.75 0 0 0 0 1.06l5.22 5.22H5.75a.75.75 0 0 0 0 1.5h5.5a.75.75 0 0 0 .75-.75v-5.5a.75.75 0 0 0-1.5 0v3.69L5.28 4.22a.75.75 0 0 0-1.06 0Z" clip-rule="evenodd" />',
+        'arrow-down-tray' => '<path d="M8.75 2.75a.75.75 0 0 0-1.5 0v5.69L5.03 6.22a.75.75 0 0 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 0 0-1.06-1.06L8.75 8.44V2.75Z" /><path d="M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z" />',
+        'arrow-down' => '<path fill-rule="evenodd" d="M8 2a.75.75 0 0 1 .75.75v8.69l3.22-3.22a.75.75 0 1 1 1.06 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.22 3.22V2.75A.75.75 0 0 1 8 2Z" clip-rule="evenodd" />',
+        'arrow-left-circle' => '<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm10.25.75a.75.75 0 0 0 0-1.5H6.56l1.22-1.22a.75.75 0 0 0-1.06-1.06l-2.5 2.5a.75.75 0 0 0 0 1.06l2.5 2.5a.75.75 0 1 0 1.06-1.06L6.56 8.75h4.69Z" clip-rule="evenodd" />',
+        
+        
+        
+        
+        
+        'arrow-left-end-on-rectangle' => '<path d="M4.75 2A2.75 2.75 0 0 0 2 4.75v6.5A2.75 2.75 0 0 0 4.75 14h3a2.75 2.75 0 0 0 2.75-2.75v-.5a.75.75 0 0 0-1.5 0v.5c0 .69-.56 1.25-1.25 1.25h-3c-.69 0-1.25-.56-1.25-1.25v-6.5c0-.69.56-1.25 1.25-1.25h3C8.44 3.5 9 4.06 9 4.75v.5a.75.75 0 0 0 1.5 0v-.5A2.75 2.75 0 0 0 7.75 2h-3Z" /><path d="M8.03 6.28a.75.75 0 0 0-1.06-1.06L4.72 7.47a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06l-.97-.97h7.19a.75.75 0 0 0 0-1.5H7.06l.97-.97Z" />',
+        'arrow-left-start-on-rectangle' => '<path fill-rule="evenodd" d="M14 4.75A2.75 2.75 0 0 0 11.25 2h-3A2.75 2.75 0 0 0 5.5 4.75v.5a.75.75 0 0 0 1.5 0v-.5c0-.69.56-1.25 1.25-1.25h3c.69 0 1.25.56 1.25 1.25v6.5c0 .69-.56 1.25-1.25 1.25h-3c-.69 0-1.25-.56-1.25-1.25v-.5a.75.75 0 0 0-1.5 0v.5A2.75 2.75 0 0 0 8.25 14h3A2.75 2.75 0 0 0 14 11.25v-6.5Zm-9.47.47a.75.75 0 0 0-1.06 0L1.22 7.47a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06l-.97-.97h7.19a.75.75 0 0 0 0-1.5H3.56l.97-.97a.75.75 0 0 0 0-1.06Z" clip-rule="evenodd" />',
+        'arrow-left' => '<path fill-rule="evenodd" d="M14 8a.75.75 0 0 1-.75.75H4.56l3.22 3.22a.75.75 0 1 1-1.06 1.06l-4.5-4.5a.75.75 0 0 1 0-1.06l4.5-4.5a.75.75 0 0 1 1.06 1.06L4.56 7.25h8.69A.75.75 0 0 1 14 8Z" clip-rule="evenodd" />',
+        'arrow-long-down' => '<path fill-rule="evenodd" d="M8 2a.75.75 0 0 1 .75.75v8.69l1.22-1.22a.75.75 0 1 1 1.06 1.06l-2.5 2.5a.75.75 0 0 1-1.06 0l-2.5-2.5a.75.75 0 1 1 1.06-1.06l1.22 1.22V2.75A.75.75 0 0 1 8 2Z" clip-rule="evenodd" />',
+        'arrow-long-left' => '<path fill-rule="evenodd" d="M14 8a.75.75 0 0 1-.75.75H4.56l1.22 1.22a.75.75 0 1 1-1.06 1.06l-2.5-2.5a.75.75 0 0 1 0-1.06l2.5-2.5a.75.75 0 0 1 1.06 1.06L4.56 7.25h8.69A.75.75 0 0 1 14 8Z" clip-rule="evenodd" />',
+        'arrow-long-right' => '<path fill-rule="evenodd" d="M2 8c0 .414.336.75.75.75h8.69l-1.22 1.22a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 1 0-1.06 1.06l1.22 1.22H2.75A.75.75 0 0 0 2 8Z" clip-rule="evenodd" />',
+        'arrow-long-up' => '<path fill-rule="evenodd" d="M8 14a.75.75 0 0 0 .75-.75V4.56l1.22 1.22a.75.75 0 1 0 1.06-1.06l-2.5-2.5a.75.75 0 0 0-1.06 0l-2.5 2.5a.75.75 0 0 0 1.06 1.06l1.22-1.22v8.69c0 .414.336.75.75.75Z" clip-rule="evenodd" />',
+        
+        
+        
+        
+        'arrow-path-rounded-square' => '<path fill-rule="evenodd" d="M8 3.5c-.771 0-1.537.022-2.297.066a1.124 1.124 0 0 0-1.058 1.028l-.018.214a.75.75 0 1 1-1.495-.12l.018-.221a2.624 2.624 0 0 1 2.467-2.399 41.628 41.628 0 0 1 4.766 0 2.624 2.624 0 0 1 2.467 2.399c.056.662.097 1.329.122 2l.748-.748a.75.75 0 1 1 1.06 1.06l-2 2.001a.75.75 0 0 1-1.061 0l-2-1.999a.75.75 0 0 1 1.061-1.06l.689.688a39.89 39.89 0 0 0-.114-1.815 1.124 1.124 0 0 0-1.058-1.028A40.138 40.138 0 0 0 8 3.5ZM3.22 7.22a.75.75 0 0 1 1.061 0l2 2a.75.75 0 1 1-1.06 1.06l-.69-.69c.025.61.062 1.214.114 1.816.048.56.496.996 1.058 1.028a40.112 40.112 0 0 0 4.594 0 1.124 1.124 0 0 0 1.058-1.028 39.2 39.2 0 0 0 .018-.219.75.75 0 1 1 1.495.12l-.018.226a2.624 2.624 0 0 1-2.467 2.399 41.648 41.648 0 0 1-4.766 0 2.624 2.624 0 0 1-2.467-2.399 41.395 41.395 0 0 1-.122-2l-.748.748A.75.75 0 1 1 1.22 9.22l2-2Z" clip-rule="evenodd" />',
+        'arrow-path' => '<path fill-rule="evenodd" d="M13.836 2.477a.75.75 0 0 1 .75.75v3.182a.75.75 0 0 1-.75.75h-3.182a.75.75 0 0 1 0-1.5h1.37l-.84-.841a4.5 4.5 0 0 0-7.08.932.75.75 0 0 1-1.3-.75 6 6 0 0 1 9.44-1.242l.842.84V3.227a.75.75 0 0 1 .75-.75Zm-.911 7.5A.75.75 0 0 1 13.199 11a6 6 0 0 1-9.44 1.241l-.84-.84v1.371a.75.75 0 0 1-1.5 0V9.591a.75.75 0 0 1 .75-.75H5.35a.75.75 0 0 1 0 1.5H3.98l.841.841a4.5 4.5 0 0 0 7.08-.932.75.75 0 0 1 1.025-.273Z" clip-rule="evenodd" />',
+        'arrow-right-circle' => '<path fill-rule="evenodd" d="M15 8A7 7 0 1 0 1 8a7 7 0 0 0 14 0ZM4.75 7.25a.75.75 0 0 0 0 1.5h4.69L8.22 9.97a.75.75 0 1 0 1.06 1.06l2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 0 0-1.06 1.06l1.22 1.22H4.75Z" clip-rule="evenodd" />',
+        'arrow-right-end-on-rectangle' => '<path d="M11.25 2A2.75 2.75 0 0 1 14 4.75v6.5A2.75 2.75 0 0 1 11.25 14h-3a2.75 2.75 0 0 1-2.75-2.75v-.5a.75.75 0 0 1 1.5 0v.5c0 .69.56 1.25 1.25 1.25h3c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25h-3C7.56 3.5 7 4.06 7 4.75v.5a.75.75 0 0 1-1.5 0v-.5A2.75 2.75 0 0 1 8.25 2h3Z" /><path d="M7.97 6.28a.75.75 0 0 1 1.06-1.06l2.25 2.25a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 1 1-1.06-1.06l.97-.97H1.75a.75.75 0 0 1 0-1.5h7.19l-.97-.97Z" />',
+        'arrow-right-start-on-rectangle' => '<path fill-rule="evenodd" d="M2 4.75A2.75 2.75 0 0 1 4.75 2h3a2.75 2.75 0 0 1 2.75 2.75v.5a.75.75 0 0 1-1.5 0v-.5c0-.69-.56-1.25-1.25-1.25h-3c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h3c.69 0 1.25-.56 1.25-1.25v-.5a.75.75 0 0 1 1.5 0v.5A2.75 2.75 0 0 1 7.75 14h-3A2.75 2.75 0 0 1 2 11.25v-6.5Zm9.47.47a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1 0 1.06l-2.25 2.25a.75.75 0 1 1-1.06-1.06l.97-.97H5.25a.75.75 0 0 1 0-1.5h7.19l-.97-.97a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />',
+        'arrow-right' => '<path fill-rule="evenodd" d="M2 8a.75.75 0 0 1 .75-.75h8.69L8.22 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H2.75A.75.75 0 0 1 2 8Z" clip-rule="evenodd" />',
+        'arrow-top-right-on-square' => '<path d="M6.22 8.72a.75.75 0 0 0 1.06 1.06l5.22-5.22v1.69a.75.75 0 0 0 1.5 0v-3.5a.75.75 0 0 0-.75-.75h-3.5a.75.75 0 0 0 0 1.5h1.69L6.22 8.72Z" /><path d="M3.5 6.75c0-.69.56-1.25 1.25-1.25H7A.75.75 0 0 0 7 4H4.75A2.75 2.75 0 0 0 2 6.75v4.5A2.75 2.75 0 0 0 4.75 14h4.5A2.75 2.75 0 0 0 12 11.25V9a.75.75 0 0 0-1.5 0v2.25c0 .69-.56 1.25-1.25 1.25h-4.5c-.69 0-1.25-.56-1.25-1.25v-4.5Z" />',
+        
+        
+        
+        
+        
         'arrow-trending-down' => '',
         'arrow-trending-up' => '',
         'arrow-turn-down-left' => '',
@@ -44,6 +58,11 @@ class MicroIcons
         'arrow-turn-left-down' => '',
         'arrow-turn-left-up' => '',
         'arrow-turn-right-down' => '',
+        
+        
+        
+        
+        
         'arrow-turn-right-up' => '',
         'arrow-turn-up-left' => '',
         'arrow-turn-up-right' => '',
@@ -51,6 +70,11 @@ class MicroIcons
         'arrow-up-left' => '',
         'arrow-up-on-square-stack' => '',
         'arrow-up-on-square' => '',
+        
+        
+        
+        
+        
         'arrow-up-right' => '',
         'arrow-up-tray' => '',
         'arrow-up' => '',
@@ -58,6 +82,11 @@ class MicroIcons
         'arrow-uturn-left' => '',
         'arrow-uturn-right' => '',
         'arrow-uturn-up' => '',
+        
+        
+        
+        
+        
         'arrows-pointing-in' => '',
         'arrows-pointing-out' => '',
         'arrows-right-left' => '',
@@ -65,6 +94,11 @@ class MicroIcons
         'at-symbol' => '',
         'backspace' => '',
         'backward' => '',
+        
+        
+        
+        
+        
         'banknotes' => '',
         'bars-2' => '',
         'bars-3-bottom-left' => '',
@@ -72,6 +106,11 @@ class MicroIcons
         'bars-3-center-left' => '',
         'bars-3' => '',
         'bars-4' => '',
+        
+        
+        
+        
+        
         'bars-arrow-down' => '',
         'bars-arrow-up' => '',
         'battery-0' => '',
@@ -79,6 +118,11 @@ class MicroIcons
         'battery-50' => '',
         'beaker' => '',
         'bell-alert' => '',
+        
+        
+        
+        
+        
         'bell-slash' => '',
         'bell-snooze' => '',
         'bell' => '',
@@ -86,6 +130,11 @@ class MicroIcons
         'bolt-slash' => '',
         'bolt' => '',
         'book-open' => '',
+        
+        
+        
+        
+        
         'bookmark-slash' => '',
         'bookmark-square' => '',
         'bookmark' => '',
@@ -93,6 +142,10 @@ class MicroIcons
         'bug-ant' => '',
         'building-library' => '',
         'building-office-2' => '',
+        
+        
+        
+        
         'building-office' => '',
         'building-storefront' => '',
         'cake' => '',
@@ -100,6 +153,10 @@ class MicroIcons
         'calendar-date-range' => '',
         'calendar-days' => '',
         'calendar' => '',
+        
+        
+        
+        
         'camera' => '',
         'chart-bar-square' => '',
         'chart-bar' => '',
@@ -107,6 +164,10 @@ class MicroIcons
         'chat-bubble-bottom-center-text' => '',
         'chat-bubble-bottom-center' => '',
         'chat-bubble-left-ellipsis' => '',
+        
+        
+        
+        
         'chat-bubble-left-right' => '',
         'chat-bubble-left' => '',
         'chat-bubble-oval-left-ellipsis' => '',
@@ -114,6 +175,11 @@ class MicroIcons
         'check-badge' => '',
         'check-circle' => '',
         'check' => '',
+        
+        
+        
+        
+        
         'chevron-double-down' => '',
         'chevron-double-left' => '',
         'chevron-double-right' => '',
@@ -121,6 +187,11 @@ class MicroIcons
         'chevron-down' => '',
         'chevron-left' => '',
         'chevron-right' => '',
+        
+        
+        
+        
+        
         'chevron-up-down' => '',
         'chevron-up' => '',
         'circle-stack' => '',
@@ -128,6 +199,10 @@ class MicroIcons
         'clipboard-document-list' => '',
         'clipboard-document' => '',
         'clipboard' => '',
+        
+        
+        
+        
         'clock' => '',
         'cloud-arrow-down' => '',
         'cloud-arrow-up' => '',
@@ -135,6 +210,10 @@ class MicroIcons
         'code-bracket-square' => '',
         'code-bracket' => '',
         'cog-6-tooth' => '',
+        
+        
+        
+        
         'cog-8-tooth' => '',
         'cog' => '',
         'command-line' => '',
@@ -142,6 +221,10 @@ class MicroIcons
         'cpu-chip' => '',
         'credit-card' => '',
         'cube-transparent' => '',
+        
+        
+        
+        
         'cube' => '',
         'currency-bangladeshi' => '',
         'currency-dollar' => '',
@@ -149,6 +232,10 @@ class MicroIcons
         'currency-pound' => '',
         'currency-rupee' => '',
         'currency-yen' => '',
+        
+        
+        
+        
         'cursor-arrow-rays' => '',
         'cursor-arrow-ripple' => '',
         'device-phone-mobile' => '',
@@ -156,6 +243,10 @@ class MicroIcons
         'divide' => '',
         'document-arrow-down' => '',
         'document-arrow-up' => '',
+        
+        
+        
+        
         'document-chart-bar' => '',
         'document-check' => '',
         'document-currency-bangladeshi' => '',
