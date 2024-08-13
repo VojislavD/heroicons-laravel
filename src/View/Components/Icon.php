@@ -1,8 +1,8 @@
 <?php
 
-namespace Heroicons\View\Components;
+namespace HeroiconsLaravel\View\Components;
 
-use Heroicons\Icons;
+use HeroiconsLaravel\Icons;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 
@@ -46,7 +46,7 @@ class Icon extends Component
 
     public function render(): Renderable
     {
-        return view('heroicons::components.icon', [
+        return view('heroicons-laravel::components.icon', [
             'path' => $this->icons->get($this->type, $this->name),
             'viewBox' => $this->viewBox,
             'iconAttributes' => $this->iconAttributes,

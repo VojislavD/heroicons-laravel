@@ -1,6 +1,6 @@
 <?php
 
-namespace Heroicons\Icons;
+namespace HeroiconsLaravel\Icons;
 
 class MiniIcons
 {

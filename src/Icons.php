@@ -1,11 +1,11 @@
 <?php
 
-namespace Heroicons;
+namespace HeroiconsLaravel;
 
-use Heroicons\Icons\MicroIcons;
-use Heroicons\Icons\MiniIcons;
-use Heroicons\Icons\OutlineIcons;
-use Heroicons\Icons\SolidIcons;
+use HeroiconsLaravel\Icons\MicroIcons;
+use HeroiconsLaravel\Icons\MiniIcons;
+use HeroiconsLaravel\Icons\OutlineIcons;
+use HeroiconsLaravel\Icons\SolidIcons;
 
 class Icons
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Heroicons;
+namespace HeroiconsLaravel;
 
-use Heroicons\View\Components\Icon;
+use HeroiconsLaravel\View\Components\Icon;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
-class HeroiconsServiceProvider extends ServiceProvider
+class HeroiconsLaravelServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
@@ -17,6 +17,6 @@ class HeroiconsServiceProvider extends ServiceProvider
     {
         Blade::component('icon', Icon::class);
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'heroicons');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'heroicons-laravel');
     }
 }

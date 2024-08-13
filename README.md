@@ -1,6 +1,6 @@
 # Heroicons for Laravel
 
-A simple implementation of Heroicons in Laravel.
+A simple implementation of <a href="https://heroicons.com/" target="_blank">Heroicons</a> in Laravel.
 
 ## Requirements
 

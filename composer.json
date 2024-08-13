@@ -1,6 +1,6 @@
 {
-    "name": "vojislavd/heroicons",
-    "description": "Simple handle heroicon from Laravel",
+    "name": "vojislavd/heroicons-laravel",
+    "description": "A simple implementation of Heroicons in Laravel.",
     "license": "MIT",
     "require": {
         "php": "^8.3"
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Heroicons\\": "src"
+            "HeroiconsLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Heroicons\\Tests\\": "tests"
+            "HeroiconsLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Heroicons\\HeroiconsServiceProvider"
+                "HeroiconsLaravel\\HeroiconsLaravelServiceProvider"
             ]
         }
     },
