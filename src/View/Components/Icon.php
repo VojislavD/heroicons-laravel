@@ -12,8 +12,16 @@ class Icon extends Component
         private Icons $icons,
         private string $name,
         private string $type = 'outline',
+        private string $viewBox = '0 0 24 24',
         private array $iconAttributes = [],
     ) { 
+        $this->viewBox = match ($this->type) {
+            'outline' => '0 0 24 24',
+            'solid' => '0 0 24 24',
+            'mini' => '0 0 20 20',
+            'micro' => '0 0 16 16',
+        };
+
         $this->iconAttributes = match ($this->type) {
             'outline' => [
                 'fill' => 'none',
@@ -29,6 +37,10 @@ class Icon extends Component
                 'fill' => 'currentColor',
                 'class' => 'size-5',
             ],
+            'micro' => [
+                'fill' => 'currentColor',
+                'class' => 'size-4',
+            ],
         };
     }
 
@@ -36,6 +48,7 @@ class Icon extends Component
     {
         return view('heroicons::components.icon', [
             'path' => $this->icons->get($this->type, $this->name),
+            'viewBox' => $this->viewBox,
             'iconAttributes' => $this->iconAttributes,
         ]);
     }
